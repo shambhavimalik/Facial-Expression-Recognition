@@ -23,7 +23,10 @@ This dataset was prepared by Pierre-Luc Carrier and Aaron Courville, as part of 
 
 After training, saving, and exporting the CNN,  directly serve the trained model predictions to a web interface and perform real-time facial expression recognition on video and image data.
 
-**Used Keras, OpenCV and JSON.**
+**Used Keras, OpenCV and Flask-JSON.**
+- Used Keras to build the CNN.
+- Used OpenCV to automatically detect faces in images and draw bounding boxes around them. 
+- Deploy trained model to web interface with Flask-JSON.
 
 ## References
 - Challenges in Representation Learning: Facial Expression Recognition Challenge [Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/overview)

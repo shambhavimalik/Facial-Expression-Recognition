@@ -28,8 +28,11 @@ After training, saving, and exporting the CNN,  directly serve the trained model
 - Used OpenCV to automatically detect faces in images and draw bounding boxes around them. 
 - Deploy trained model to web interface with Flask-JSON.
 
+## Result
+Accuracy of ~66% achieved.
+
 ## References
 - Challenges in Representation Learning: Facial Expression Recognition Challenge [Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/overview)
 
-- Goodfellow, I.J., et.al. (2013). Challenged in representation learning: A report of three machine learning contests. Neural Networks, 64, 59-63. [doi:10.1016/j.neunet.2014.09.005](https://arxiv.org/pdf/1307.0414.pdf)
+- Goodfellow, I.J., et.al. (2013). Challenges in representation learning: A report of three machine learning contests. Neural Networks, 64, 59-63. [doi:10.1016/j.neunet.2014.09.005](https://arxiv.org/pdf/1307.0414.pdf)
 
